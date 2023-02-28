@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib 
-import seaborn as sn
+import matplotlib as plt
+import seaborn as sns
 import pickle
 import shap
 import plotly.express as px
@@ -12,7 +12,7 @@ import sklearn.cluster
 plt.style.use('fivethirtyeight')
 
 
-# sns.set_style('darkgrid')
+sns.set_style('darkgrid')
 
 
 def main():
